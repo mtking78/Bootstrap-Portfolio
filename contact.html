@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--<meta charset="UTF-8">
+        <meta name="viewport" content="width=devicewidth, initialscale=1">-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+	<title>Contact</title>
+</head>
+<body>
+
+    <!--"fixed" attribute moves container to top-->
+    <nav class="navbar navbar-top">
+        <div class="container-fluid">
+            <!--container below sets navbar parallel to content-->
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><h1>Your Name</h1></a>
+                </div>
+                <div class="navbar-nav navbar-right">
+                    <a href="index.html" class="navbar-link">About</a>
+                    <a href="portfolio.html" class="navbar-link">Portfolio</a>
+                    <a href="contact.html" class="navbar-link">Contact</a>
+                </div><!--/navbar-nav navbar-right-->
+            </div><!--/container-->
+        </div><!--/container-fluid-->
+    </nav>
+
+    <div class="container">
+        <div class="row content">
+            <div class="col-xs-12 col-md-8">
+                <div class="article">
+                    <h1>Contact</h1>
+                    <div class="container">
+                        <form action="/action_page.php" class="col-xs-12 col-sm-11 col-md-7">
+                            <div class="form-group">
+                                <label for="usr">Name:</label>
+                                <input type="text" class="form-control" id=focusedInput placeholder="John Smith" name="usr">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Email:</label>
+                                <input type="email" class="form-control" id=focusedInput placeholder="example@gmail.com" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">Comment:</label>
+                                <textarea class="form-control" rows="10" id=focusedInput></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-lg">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div><!--"col-sm-8"-->
+
+            <div class=" col-xs-12 col-md-4">
+                <div class="aside">
+                    <h2>Connect with Me</h2>
+                        <div class="media-links">
+                            <a href="https://github.com/mtking78" target="_blank"><img src="assets/images/logo_github.png" width="64px">
+                            </a>
+                            <a href="https://www.linkedin.com/in/mtking78/" target="_blank"><img src="assets/images/logo_linkedin.png" width="64px">
+                            </a>
+                            <a href="https://stackoverflow.com/users/9213176/matt-king" target="_blank"><img src="assets/images/logo_stackoverflow.png" width="64px">
+                            </a>
+                        </div>
+                </div>
+            </div><!--"col-sm-4"-->
+        </div>
+    </div>
+
+    <footer class="container-fluid">
+        &copy;Copyright 2018 Matt King
+    </footer>
+</body>
+</html>
